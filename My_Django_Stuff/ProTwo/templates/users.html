@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Users</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  </head>
+  <body>
+    <div class="container">
+        <h1>AR<i>S</i></h1>
+        <h3>Please sign up here!</h3>
+        <form method="POST">
+          {{ form.as_p }}
+          {% csrf_token %}
+          <input type="submit" class="btn btn-primary" value="submit">
+
+        </form>
+    </div>
+
+
+  </body>
+</html>

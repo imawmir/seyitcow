@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <body>
+    {% load crispy_forms_tags %}
+
+    <h1 style="border-left: 60px solid white;">AR<i>S</i></h1>
+    <h3 style="border-left: 60px solid white;">Fill out the form</h3>
+    <div class="container">
+
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">ایمیل</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">رمز عبور</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">آدرس</label>
+          <input type="text" class="form-control" id="inputAddress">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">شهر</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">استان</label>
+          <select id="inputState" class="form-select">
+            <option selected>انتخاب کنید</option>
+            <option>آذربایجان شرقی</option>
+            <option>آذربایجان غربی</option>
+            <option>اردبیل</option>
+            <option>اصفهان</option>
+            <option>البرز</option>
+            <option>ایلام</option>
+            <option>بوشهر</option>
+            <option>تهران</option>
+            <option>چهار و محال بختیاری</option>
+            <option>خراسان جنوبی</option>
+            <option>خراسان شمالی</option>
+            <option>خراسان رضوی</option>
+            <option>خوزستان</option>
+            <option>زنجان</option>
+            <option>سمنان</option>
+            <option>سیستان و بلوچستان</option>
+            <option>فارس</option>
+            <option>قزوین</option>
+            <option>قم</option>
+            <option>کردستان</option>
+            <option>کرمان</option>
+            <option>کرمانشاه</option>
+            <option>کهگیلویه و بویراحمد</option>
+            <option>گلستان</option>
+            <option>گیلان</option>
+            <option>لرستان</option>
+            <option>مازندران</option>
+            <option>مرکزی</option>
+            <option>هرمزگان</option>
+            <option>همدان</option>
+            <option>یزد</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">کدپستی</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              تمام شرایط و ضوابط را می پذیرم
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">ثبت نام</button>
+        </div>
+      </form>
+        <br><br>
+
+    </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
