@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-^dep%&1%k$9gv3q_5c#$rvormknmv*mpfi_i6g&8$67r501eq8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['emir.pythonanywhere.com']
+ALLOWED_HOSTS = ['https://emir.pythonanywhere.com']
 
 
 # Application definition
